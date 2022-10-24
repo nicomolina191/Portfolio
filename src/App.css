@@ -1,0 +1,19 @@
+@font-face {
+  font-family: BlankSpace;
+  src: url('./assets/fonts/KGBlankSpaceSolid.ttf');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: BlankSpaceSketch;
+  src: url('./assets/fonts/KGBlankSpaceSketch.ttf');
+  font-weight: 500;
+}
+
+.App {
+  font-family: BlankSpace;
+}
+
+.skills {
+  background-color: black;
+}

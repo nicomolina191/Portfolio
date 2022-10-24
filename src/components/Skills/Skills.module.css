@@ -1,0 +1,23 @@
+.skill {
+    padding: 0 0 50px 0;
+    position: relative;
+    background: #151515;
+    border-radius: 64px;
+    text-align: center;
+    padding: 60px 50px;
+    margin-top: -60px;
+    color: white;
+    width: 80%;
+    left: 10%;
+}
+
+.title {
+    font-size: 45px;
+}
+
+.text {
+    font-size: 18px;
+    letter-spacing: 0.8px;
+    line-height: 2.5em;
+    margin: 14px 0 75px 0;
+}

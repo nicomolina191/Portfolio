@@ -1,0 +1,46 @@
+.banner {
+    color: white !important;
+    margin-top: 0;
+    padding: 260px 0 100px 0;
+    background-image: url('../../assets/background.jpg');
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.text {
+    font-size: 17px;
+    letter-spacing: 0.8px;
+    line-height: 1.5em;
+    width: 96%;
+    margin-bottom: 30px;
+}
+
+.img {
+    border-radius: 50%;
+    animation: updown 3s linear infinite;
+    width: 450px;
+    height: 450px;
+    border: 3px solid white;
+}
+
+@keyframes updown {
+    0% {
+        transform: translateY(-20px);
+    }
+
+    50% {
+        transform: translateY(20px);
+    }
+
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.title {
+    line-height: 1.5;
+    margin-bottom: 20px;
+    display: block;
+    font-size: 50px;
+}

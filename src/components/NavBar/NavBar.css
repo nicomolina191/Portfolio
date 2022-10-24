@@ -1,0 +1,39 @@
+nav.navbar {
+    padding: 18px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 9999;
+    transition: 0.32s ease-in-out;
+}
+
+nav.navbar.scrolled {
+    padding: 0px 0;
+    background-color: #121212;
+}
+
+
+.navbar-img {
+    margin-right: 10px;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 25px;
+    opacity: 0.75;
+    margin-left: 30px;
+}
+
+.nav-link:hover, .nav-link.active {
+    opacity: 1;
+}
+
+.social-icon {
+    display: inline-block;
+    margin-left: 14px;
+    margin-right: 30px;
+}
+
+.social-icon a {
+    margin-left: 10px;
+}
