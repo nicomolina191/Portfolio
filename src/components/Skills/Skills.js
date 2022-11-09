@@ -48,41 +48,41 @@ export const Skills = () => {
 								infinite={true}
 								className='owl-carousel owl-theme skill-slider'
 							>
-								<div className={style.item}>
-									<img src={js} alt='' />
-									<h5>JavaScript</h5>
+								<div>
+									<img src={js} alt='' className={style.img}/>
+									<h5 className={style.name}>JavaScript</h5>
 								</div>
-								<div className={style.item}>
-									<img src={html} alt='' />
-									<h5>HTML</h5>
+								<div>
+									<img src={html} alt='' className={style.img}/>
+									<h5 className={style.name}>HTML</h5>
 								</div>
-								<div className={style.item}>
-									<img src={css} alt='' />
-									<h5>CSS</h5>
+								<div>
+									<img src={css} alt='' className={style.img}/>
+									<h5 className={style.name}>CSS</h5>
 								</div>
-								<div className={style.item}>
-									<img src={react} alt='' />
-									<h5>React</h5>
+								<div>
+									<img src={react} alt='' className={style.img}/>
+									<h5 className={style.name}>React</h5>
 								</div>
-								<div className={style.item}>
-									<img src={nodejs} alt='' />
-									<h5>Node JS</h5>
+								<div>
+									<img src={nodejs} alt='' className={style.img}/>
+									<h5 className={style.name}>Node JS</h5>
 								</div>
-								<div className={style.item}>
-									<img src={redux} alt='' />
-									<h5>Redux</h5>
+								<div>
+									<img src={redux} alt='' className={style.img}/>
+									<h5 className={style.name}>Redux</h5>
 								</div>
-								<div className={style.item}>
-									<img src={express} alt='' />
-									<h5>Express JS</h5>
+								<div>
+									<img src={express} alt='' className={style.img}/>
+									<h5 className={style.name}>Express JS</h5>
 								</div>
-								<div className={style.item}>
-									<img src={postgres} alt='' />
-									<h5>PostgreSQL</h5>
+								<div>
+									<img src={postgres} alt='' className={style.img}/>
+									<h5 className={style.name}>PostgreSQL</h5>
 								</div>
-								<div className={style.item}>
-									<img src={github} alt='' />
-									<h5>GitHub</h5>
+								<div>
+									<img src={github} alt='' className={style.img}/>
+									<h5 className={style.name}>GitHub</h5>
 								</div>
 							</Carousel>
 						</div>

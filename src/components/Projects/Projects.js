@@ -60,7 +60,7 @@ export const Projects = () => {
 										</Nav>
 										<Tab.Content id='slideInUp'>
 											<Tab.Pane eventKey='first'>
-												<Row>
+												<Row className={style.element}>
 													{projects.map((project, index) => {
 														return <ProjectCard key={index} {...project} />;
 													})}

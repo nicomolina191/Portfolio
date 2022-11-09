@@ -10,3 +10,27 @@
     letter-spacing: 0.5px;
     margin-top: 20px;
 }
+
+@media (max-width: 800px) {
+
+    .img {
+        width: 350px;
+        height: auto;
+    }
+
+}
+
+@media (max-width: 375px) {
+
+    .img {
+        width: 300px;
+        height: auto;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+}

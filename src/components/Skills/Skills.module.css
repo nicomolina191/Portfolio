@@ -21,3 +21,23 @@
     line-height: 2.5em;
     margin: 14px 0 75px 0;
 }
+
+@media (max-width: 660px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .name {
+        font-size: 15px;
+    }
+}

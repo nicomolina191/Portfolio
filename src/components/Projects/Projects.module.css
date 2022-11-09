@@ -1,5 +1,5 @@
 .project {
-    padding: 80px 0;
+    padding: 60px 0;
     position: relative;
     background-color: black;
     color: white;
@@ -58,3 +58,21 @@
     margin-top: 30px;
 }
 
+.element {
+    margin-top: 30px;
+}
+
+@media (max-width: 375px) {
+
+    .title {
+        font-size: 30px;
+    }
+
+    .text {
+        font-size: 12px;
+    }
+
+    .element {
+        margin-left: 40px;
+    }
+}

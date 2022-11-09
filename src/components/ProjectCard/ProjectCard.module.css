@@ -44,6 +44,7 @@
 }
 
 .title {
+    color: white;
     font-size: 30px;
     font-weight: 700;
     letter-spacing: 0.8px;
@@ -52,6 +53,7 @@
 
 .description {
     font-style: italic;
+    color: white;
     font-weight: 400;
     font-size: 15px;
     letter-spacing: 0.8px;
@@ -60,5 +62,58 @@
 .link {
     width: 420px;
     height: 350px;
-    margin-top: 30px;
+    margin: 0;
+    padding: 0;
+}
+
+@media (max-width: 1280px) {
+
+    .img {
+        width: 370px;
+        height: 300px;
+    }
+
+    .link {
+        width: 370px;
+        height: 300px;
+    }
+
+    .card {
+        width: 370px;
+        height: 300px;
+    }
+}
+
+@media (max-width: 800px) {
+
+    .img {
+        width: 230px;
+        height: 160px;
+    }
+
+    .link {
+        width: 230px;
+        height: 160px;
+    }
+
+    .card {
+        width: 230px;
+        height: 160px;
+    }
+
+    .title {
+        font-size: 20px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .link {
+        margin-top: 5px;
+    }
+
 }

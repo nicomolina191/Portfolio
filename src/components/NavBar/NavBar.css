@@ -1,5 +1,5 @@
 nav.navbar {
-    padding: 18px 0;
+    padding: 18px 0 !important;
     position: fixed;
     width: 100%;
     top: 0;
@@ -17,14 +17,15 @@ nav.navbar.scrolled {
     margin-right: 10px;
 }
 
-.nav-link {
+.link {
     color: white !important;
     font-size: 25px;
     opacity: 0.75;
     margin-left: 30px;
 }
 
-.nav-link:hover, .nav-link.active {
+.link:hover,
+.link.active {
     opacity: 1;
 }
 
@@ -36,4 +37,144 @@ nav.navbar.scrolled {
 
 .social-icon a {
     margin-left: 10px;
+}
+
+.navbar-toggle {
+    display: none;
+}
+
+@media (max-width: 1280px) {
+
+    .link {
+        font-size: 25px;
+    }
+
+    .navbar-img {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1024px) {
+    .navbar-img {
+        display: none;
+    }
+
+    .nav.navbar {
+        padding: 5px 0;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .navbar-container {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collapse {
+        background-color: #121212;
+    }
+
+    .card {
+        background-color: #121212;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .navbar-link {
+        color: white !important;
+        font-size: 25px;
+        opacity: 0.75;
+    }
+
+    .navbar-link:hover,
+    .navbar-link.active {
+        opacity: 1;
+    }
+
+}
+
+@media (max-width: 570px) {
+    .navbar-img {
+        display: none;
+    }
+
+    .nav.navbar {
+        padding: 5px 0;
+    }
+
+    .link {
+        display: none;
+    }
+
+    .navbar-container {
+        display: none !important;
+    }
+
+    .navbar-toggle {
+        display: flex;
+    }
+
+    .body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .collapse {
+        background-color: #121212;
+    }
+
+    .card {
+        background-color: #121212;
+    }
+
+    .text {
+        display: none;
+    }
+
+    .navbar-link {
+        color: white !important;
+        font-size: 15px;
+        opacity: 0.75;
+    }
+
+    .navbar-link:hover,
+    .navbar-link.active {
+        opacity: 1;
+    }
+
+    .social-icon {
+        display: inline-block;
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+}
+
+@media (max-width: 375px) {
+
+    .social-icon a img{
+        width: 30px;
+        height: 30px;
+    }
+
+    .vvd {
+        width: 85px;
+        height: auto;
+    }
+
+    .vvd span {
+        font-size: 10px;
+    }
 }
