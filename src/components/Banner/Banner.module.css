@@ -99,9 +99,9 @@
 @media (max-width: 375px) {
 
     .img {
-        width: 300px;
-        height: 300px;
-        margin-left: 30px;
+        width: 250px;
+        height: 250px;
+        margin-left: 40px;
     }
 
 }

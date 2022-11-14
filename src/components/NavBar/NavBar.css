@@ -60,8 +60,8 @@ nav.navbar.scrolled {
         display: none;
     }
 
-    .nav.navbar {
-        padding: 5px 0;
+    nav.navbar {
+        padding: 5px !important;
     }
 
     .link {
@@ -104,15 +104,16 @@ nav.navbar.scrolled {
         opacity: 1;
     }
 
+    .nav-option {
+        width: 50px;
+        height: 50px;
+    }
+
 }
 
 @media (max-width: 570px) {
     .navbar-img {
         display: none;
-    }
-
-    .nav.navbar {
-        padding: 5px 0;
     }
 
     .link {
@@ -159,6 +160,11 @@ nav.navbar.scrolled {
         display: inline-block;
         margin-left: 0px;
         margin-right: 0px;
+    }
+
+    .nav-option {
+        width: 30px;
+        height: 30px;
     }
 }
 

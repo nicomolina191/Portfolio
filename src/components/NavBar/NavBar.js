@@ -106,7 +106,7 @@ export const NavBar = () => {
                         <Card className="card">
                             <Card.Header>
                                 <CustomToggle eventKey="0">
-                                    <img src={option} alt='' />
+                                    <img src={option} alt='' className="nav-option" />
                                 </CustomToggle>
                             </Card.Header>
                             <Accordion.Collapse eventKey="0" className="collapse">
